@@ -1,0 +1,21 @@
+{
+  "name": "earned-confidence",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evidence-scoped estimates and hindsight-safe decision snapshots.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "check": "npm run typecheck && npm test && npm run example",
+    "example": "node --experimental-strip-types examples/deployment-readiness.ts",
+    "test": "node --test --experimental-strip-types tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.1",
+    "typescript": "6.0.3"
+  },
+  "license": "MIT"
+}
