@@ -1,5 +1,17 @@
 # Earned Confidence
 
+<!-- toolkit-trust-card:start -->
+> **Public contract:** Experimental pattern · about 5 min · Node.js 22.6+ · no model · no network
+>
+> **Operation:** Read-only check; examples may use temporary files
+>
+> **A pass establishes:** Type checking, behavioral tests, and the synthetic example preserve unknown state, evidence-key isolation, policy-defined bands, immutable snapshots, and deterministic serialization.
+>
+> **It does not establish:** Observations are not authenticated, bands are not statistical, and the package supplies no persistence or authorization.
+>
+> **First check:** `npm run check`
+<!-- toolkit-trust-card:end -->
+
 > Unknown is a state, not zero.
 
 Earned Confidence is a small TypeScript reference implementation for systems
